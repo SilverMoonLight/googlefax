@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+nav#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li {
+    display: inline;
+}
+
+div.cars ul li  {
+    display: inline-block;
+    width: 29%;
+    padding: 2%;
+}
+
+div.cars ul li img {
+    width: 70%;
+    height: 15%;
+}
+
+
+div.cars ul li span,
+div.container form label  {
+    display: block;
+    text-align: center;
+}
+
+div.container form input[type="text"] {
+    width: 50%;
+    margin: 1%;
+    margin-left: 20%;
+}
