@@ -12,7 +12,7 @@ let newElementContainer = document.createElement("div");
 newElementContainer.className = "newElementContainer";
 const carName = document.createElement("span");
 carName.innerHTML = values[0];
-const carDesc = document.createElement("p")
+const carDesc = document.createElement("p");
 carDesc.innerHTML = values[1];
 
 container.appendChild(newElementContainer);
